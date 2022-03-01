@@ -1,1 +1,3 @@
 # violent-python3
+## Environment Setup
+Practiced the concepts of the book [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579) using virtual machines. In this case, VMware was my hypervisor. One machine called attacker ran on Kali Linux and the other machine called Victim ran Ubuntu 18.04. The mapping of the Client's hostname to IP address was added to the /etc/hosts. 
