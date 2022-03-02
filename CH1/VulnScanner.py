@@ -1,6 +1,6 @@
 import socket
 import sys
-import os.path 
+import os
 
 def retBanner(ip: str, port: int) -> str:
     banner = "connection Failed"
@@ -29,7 +29,7 @@ def main():
             if not os.access(vulnbannerFile, os.R_OK):
                 print("{0} cannot be read.".format(vulnbannerFile))
                 exit(0)
-                
+
             services = {'ftp': 21, 'ssh': 22, 'smtp': 25, 'http': 80}
             ip = "192.168.228."
             for x in range(1, 255):
