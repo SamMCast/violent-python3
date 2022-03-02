@@ -1,5 +1,5 @@
 # violent-python3
-Practiced the concepts of the book [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579) using virtual machines. 
+Practiced the concepts of the book [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579) using virtual machines. I used the book as a guide but for the most I tried to use my own implementations to accomplish the tasks outlined the book. 
 ## Environment Setup
 To do the execises I used VMware for my hypervisor. In my VM setup, I used two machines, an attacker and victim. 
 ### Victim Machine Notes
