@@ -5,6 +5,7 @@ To do the execises I used VMware for my hypervisor. In my VM setup, I used two m
 ### Victim Machine Notes
 - Operating System is Ubuntu 18.04
 - Exists an ftp server in order to complete chapter 1. In this case, I used an [vsftpd](https://en.wikipedia.org/wiki/Vsftpd) server. For the purposes of following the book I just used the default configuration, i.e. ```sudo apt update && sudo apt install vsftpd -y```. 
+- Removed SHA512 option in ```/etc/pam.d/common-password``` file. This allows for passwd program to use crypt function by default. 
 
 ### Attacker Machine Notes
  - a Kali Linux machine
